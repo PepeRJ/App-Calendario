@@ -16,7 +16,7 @@ El sistema de calendario ha sido creado utilizando lógica personalizada apoyada
 
 ## Prueba la Aplicación
 
-Puedes probar el planificador de tareas en el siguiente enlace: [Planificador de Tareas](#).
+Puedes probar el calendario (en la prueba, he quitado la autenticación, para no tener que loguearse) en el siguiente enlace: [Planificador de Tareas](#).
 
 ## Requisitos
 
