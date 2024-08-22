@@ -1,28 +1,53 @@
-# Calendario
+# Planificador de Tareas 📅
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+**Descripción:**
 
-## Development server
+Esta aplicación ha sido desarrollada como una Single Page Application (SPA) utilizando Angular18, permitiendo una experiencia de usuario rápida y dinámica. La funcionalidad de autenticación y autorización se ha implementado con Auth0, permitiendo a los usuarios iniciar sesión con su cuenta de Google. Esto ofrece un excelente entorno para practicar el uso de guards en Angular, los cuales controlan el acceso a ciertas rutas dependiendo del estado de autenticación del usuario.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+El sistema de calendario ha sido creado utilizando lógica personalizada apoyada en los métodos de fecha de JavaScript. Esto permite identificar correctamente el día actual y facilita la selección de otras fechas. La aplicación utiliza el LocalStorage del navegador para guardar los datos, asegurando así que los usuarios puedan gestionar sus tareas de manera persistente. Es ideal para planificar deberes y tareas, manteniendo un registro claro de las fechas seleccionadas y permitiendo una organización efectiva.
 
-## Code scaffolding
+## Características
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Inicio de sesión con Google usando Auth0.
+- Control de acceso a rutas mediante guards de Angular.
+- Calendario interactivo construido con lógica personalizada.
+- Almacenamiento de datos de tareas en LocalStorage para persistencia.
+- Organización y planeación de deberes y tareas con facilidad.
 
-## Build
+## Prueba la Aplicación
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Puedes probar el planificador de tareas en el siguiente enlace: [Planificador de Tareas](#).
 
-## Running unit tests
+## Requisitos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js
+- Angular CLI
 
-## Running end-to-end tests
+## Instalación
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clona este repositorio:**
 
-## Further help
+    ```bash
+    git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+    cd nombre-del-repositorio
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# App-Calendario
+2. **Instala las dependencias:**
+
+    ```bash
+    npm install
+    ```
+
+## Uso
+
+1. Ejecuta la aplicación Angular:
+
+    ```bash
+    ng serve -o
+    ```
+
+   Esto abrirá la aplicación en `http://localhost:4200/`.
+
+## Contacto
+
+Para más información o preguntas, puedes contactarme en [tu-email@dominio.com](mailto:tu-email@dominio.com).
